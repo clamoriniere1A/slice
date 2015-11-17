@@ -1,4 +1,4 @@
-package slice
+package sliceP
 
 import (
 	"io"
@@ -16,7 +16,7 @@ func init() {
 }
 
 func SliceName(typ typewriter.Type) string {
-	return typ.Name + "Slice"
+	return typ.Name + "SliceP"
 }
 
 type SliceWriter struct{}
@@ -26,7 +26,7 @@ func NewSliceWriter() *SliceWriter {
 }
 
 func (sw *SliceWriter) Name() string {
-	return "slice"
+	return "slicep"
 }
 
 func (sw *SliceWriter) Imports(typ typewriter.Type) (result []typewriter.ImportSpec) {

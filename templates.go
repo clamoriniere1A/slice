@@ -1,4 +1,4 @@
-package slice
+package sliceP
 
 import (
 	"github.com/clipperhouse/typewriter"
@@ -14,9 +14,9 @@ type model struct {
 }
 
 var templates = typewriter.TemplateSlice{
-	slice,
+	sliceP,
 
-	aggregateT,
+	/*aggregateT,
 	all,
 	any,
 	average,
@@ -36,21 +36,21 @@ var templates = typewriter.TemplateSlice{
 	selectT,
 	single,
 	sum,
-	sumT,
+	sumT,*/
 	where,
+	/*
+		sort,
+		isSorted,
+		sortDesc,
+		isSortedDesc,
 
-	sort,
-	isSorted,
-	sortDesc,
-	isSortedDesc,
+		sortBy,
+		isSortedBy,
+		sortByDesc,
+		isSortedByDesc,
 
-	sortBy,
-	isSortedBy,
-	sortByDesc,
-	isSortedByDesc,
+		sortImplementation,
+		sortInterface,
 
-	sortImplementation,
-	sortInterface,
-
-    shuffle,
+	    shuffle,*/
 }

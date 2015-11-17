@@ -1,4 +1,4 @@
-package slice
+package sliceP
 
 import (
 	"bytes"
@@ -29,7 +29,7 @@ func init() {
 
 	t1.Tags = typewriter.TagSlice{
 		typewriter.Tag{
-			Name: "slice",
+			Name: "slicep",
 			Values: []typewriter.TagValue{
 				{Name: "GroupBy", TypeParameters: []typewriter.Type{t2}},
 				{Name: "Where", TypeParameters: nil},
